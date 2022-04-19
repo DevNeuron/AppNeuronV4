@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".HomeUsuario">
+
+    <ImageButton
+        android:id="@+id/pedirCita"
+        android:layout_width="160sp"
+        android:layout_height="150sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/pedircita"
+        android:onClick="Pedircita"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pedircita"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/informacionApp"
+        android:layout_width="160sp"
+        android:layout_height="150sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/informacion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pedirCita"
+        app:srcCompat="@drawable/informacion"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/ubicacionCentro"
+        android:layout_width="160sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/listacitas"
+        app:layout_constraintEnd_toEndOf="@+id/anularCita"
+        app:layout_constraintTop_toBottomOf="@+id/anularCita"
+        app:srcCompat="@drawable/listacitas"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,ImageContrastCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/anularCita"
+        android:layout_width="160sp"
+        android:layout_height="150sp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/anularcita"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/pedirCita"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/anularcita"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="160sp"
+        android:layout_height="30sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="158dp"
+        android:text="PEDIR CITA"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="160sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="31dp"
+        android:text="ANULAR CITA"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="160sp"
+        android:layout_height="30sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="94dp"
+        android:text="INFORMACIÓN"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/informacionApp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pedirCita" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="160sp"
+        android:layout_height="30sp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="4dp"
+        android:text="LISTA DE CITAS"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ubicacionCentro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anularCita"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
