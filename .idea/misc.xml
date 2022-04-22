@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Cuba/AndroidStudioProjects/PruebaLogin/app/src/main/res/drawable/boton_custom.xml" value="0.266" />
         <entry key="..\:/Users/Cuba/AndroidStudioProjects/PruebaLogin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22" />
-        <entry key="..\:/Users/Cuba/AndroidStudioProjects/PruebaLogin/app/src/main/res/layout/activity_home_usuario.xml" value="0.25" />
+        <entry key="..\:/Users/Cuba/AndroidStudioProjects/PruebaLogin/app/src/main/res/layout/activity_home_usuario.xml" value="0.5" />
         <entry key="..\:/Users/Cuba/AndroidStudioProjects/PruebaLogin/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Cuba/AndroidStudioProjects/PruebaLogin/app/src/main/res/layout/activity_pedir_cita.xml" value="0.25" />
         <entry key="..\:/Users/Cuba/AndroidStudioProjects/PruebaLogin/app/src/main/res/layout/activity_registrarse.xml" value="0.25" />

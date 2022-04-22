@@ -13,9 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PruebaLogin">
         <activity
-            android:name=".PedirCita"
-            android:exported="false" />
-        <activity
             android:name=".HomeUsuario"
             android:exported="false" />
         <activity

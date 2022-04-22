@@ -9,39 +9,42 @@
 
 
     <EditText
+
         android:id="@+id/etUsuario"
-        android:layout_width="250sp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300sp"
         android:layout_height="50sp"
-        android:layout_marginTop="4dp"
-        android:ems="10"
-        android:hint="Ingrese su correo"
-        android:inputType="textPersonName"
-        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/icon_correo"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvMensaje" />
 
     <EditText
         android:id="@+id/etContraseña"
-        android:layout_width="250sp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300sp"
         android:layout_height="50sp"
         android:layout_marginTop="8dp"
-        android:ems="10"
-        android:hint="Ingrese su contraseña"
+        android:drawableLeft="@drawable/icon_candado"
+        android:hint="Pasword"
         android:inputType="textPassword"
-        android:textStyle="bold"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/etUsuario"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etUsuario" />
 
     <Button
         android:id="@+id/btIniciar"
-        android:layout_width="200sp"
-        android:layout_height="50sp"
+        android:layout_width="250sp"
+        android:layout_height="40sp"
         android:layout_marginTop="20dp"
-        android:backgroundTint="#8ED2F1"
+        android:background="@drawable/boton_custom"
         android:onClick="Iniciar"
         android:text="Iniciar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,32 +54,32 @@
 
     <Button
         android:id="@+id/btRegistrar"
-        android:layout_width="200sp"
-        android:layout_height="50sp"
-        android:layout_marginTop="8dp"
-        android:backgroundTint="#8ED2F1"
+        android:layout_width="250sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/boton_custom"
         android:onClick="Registrar"
         android:text="Registrar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btIniciar" />
 
     <TextView
         android:id="@+id/tvMensaje"
-        android:layout_width="250sp"
+        android:layout_width="300sp"
         android:layout_height="30sp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="12dp"
         android:textColor="#EB1C0D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="254dp"
-        android:layout_height="197dp"
+        android:layout_width="150dp"
+        android:layout_height="190dp"
         android:layout_marginTop="132dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -86,26 +89,29 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="267dp"
-        android:layout_height="22dp"
+        android:layout_width="192dp"
+        android:layout_height="31dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="52dp"
-        android:text="Tambien puedes visitarnos en Fundación"
+        android:text="Tambien puedes visitarnos en "
+        android:textAlignment="center"
         android:textSize="14sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btRegistrar" />
 
     <TextView
         android:id="@+id/neuron"
-        android:layout_width="50dp"
-        android:layout_height="22dp"
+        android:layout_width="124dp"
+        android:layout_height="31dp"
         android:layout_marginStart="11dp"
         android:layout_marginTop="52dp"
         android:layout_marginEnd="92dp"
-        android:text="Neuron"
+        android:text="Fundación Neuron"
+        android:textStyle="bold"
         android:textColor="#052AF5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintHorizontal_bias="0.229"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/btRegistrar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

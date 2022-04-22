@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         if(permisoSms == PackageManager.PERMISSION_GRANTED && permisoAlmacenamiento == PackageManager.PERMISSION_GRANTED){
             //Mensaje permisos aceptados
 
-                Toast.makeText(this, "Permisos aceptado", Toast.LENGTH_SHORT).show();
+
 
         }else{
             requestPermissions(new String[]{Manifest.permission.SEND_SMS,Manifest.permission.WRITE_EXTERNAL_STORAGE}, REQUEST_CODE );
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
             tvMensaje.setText("Rellene todos los campos");
 
         }else if(usuario.isEmpty()){
-            tvMensaje.setText("El campo usuario esta vacio");
+            tvMensaje.setText("El campo Email esta vacio");
         }else if(contraseña.isEmpty()){
             tvMensaje.setText("El campo contraseña esta vacio");
         }
