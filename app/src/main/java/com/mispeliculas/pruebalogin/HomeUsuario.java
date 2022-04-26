@@ -10,7 +10,6 @@ import android.widget.ImageButton;
 public class HomeUsuario extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
