@@ -1,4 +1,4 @@
-package com.mispeliculas.pruebalogin;
+package com.FundacionNeuron.AppNeuronV4;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -6,15 +6,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 import android.Manifest;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -25,11 +21,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-
-import java.net.URI;
-import java.util.ArrayList;
-import java.util.Map;
+import com.mispeliculas.pruebalogin.R;
 
 public class MainActivity extends AppCompatActivity {
 

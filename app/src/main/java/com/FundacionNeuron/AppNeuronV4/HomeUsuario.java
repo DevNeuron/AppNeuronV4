@@ -1,11 +1,12 @@
-package com.mispeliculas.pruebalogin;
+package com.FundacionNeuron.AppNeuronV4;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
+
+import com.mispeliculas.pruebalogin.R;
 
 public class HomeUsuario extends AppCompatActivity {
 

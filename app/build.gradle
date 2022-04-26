@@ -9,7 +9,7 @@ android {
     defaultConfig {
         applicationId "com.mispeliculas.pruebalogin"
         minSdk 21
-        targetSdk 32
+        targetSdk 30
         versionCode 1
         versionName "1.0"
 
@@ -26,6 +26,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildToolsVersion '32.0.0'
 }
 
 dependencies {

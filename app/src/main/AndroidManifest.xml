@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mispeliculas.pruebalogin">
+    package="com.FundacionNeuron.AppNeuronV4">
 
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -13,16 +13,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PruebaLogin">
         <activity
-            android:name=".Cita"
+            android:name="com.FundacionNeuron.AppNeuronV4.Cita"
             android:exported="false" />
         <activity
-            android:name=".HomeUsuario"
+            android:name="com.FundacionNeuron.AppNeuronV4.HomeUsuario"
             android:exported="false" />
         <activity
-            android:name=".Registrarse"
+            android:name="com.FundacionNeuron.AppNeuronV4.Registrarse"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.FundacionNeuron.AppNeuronV4.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
