@@ -2,9 +2,8 @@
     <string name="app_name">PruebaLogin</string>
 
 
-
     <!--Hint botones home ususario-->
-    <string name="TextView">FUNDACIÓN NEURON APP</string>
+    <string name="TextView">BIENVENIDO A FUNDACIÓN NEURON</string>
     <string name="Primera_cita">Primera cita</string>
     <string name="Pedir_cita">Pedir cita</string>
     <string name="Consultar_citas">Consultar mis citas</string>

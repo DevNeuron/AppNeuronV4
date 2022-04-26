@@ -26,6 +26,11 @@ public class HomeUsuario extends AppCompatActivity {
         super.onStart();
     }
 
+    public void PedirCita(View view){
+        Intent cita = new Intent(this, Cita.class);
+        startActivity(cita);
+    }
+
 
 
 
